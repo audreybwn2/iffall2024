@@ -1,0 +1,53 @@
+body{
+        background-image: url("https://images.squarespace-cdn.com/content/v1/65c5bed8199ea70aa6235dd9/5b1de0f1-1e98-4e08-a516-533270363183/TheMarias-Submarine_WebHomeImg.jpg");
+    }
+
+    p{
+        text-align:center;
+    }
+    
+    h1{
+        color:thistle;
+        font-family:'Courier New', Courier, monospace;
+        text-align:center;
+    }
+
+    .spotifypreview    {
+        text-align:center;
+    }
+
+    .header{
+        color:aliceblue;
+        font-size:14px;
+        font-family:'Courier New', Courier, monospace;
+        text-align:center;
+        }
+
+    .else{
+        color:thistle;
+        font-size:16px;
+        font-family:'Courier New', Courier, monospace;
+        text-align:center;
+    }
+    
+    .chorus{
+        color:thistle;
+        font-size:16px;
+        font-family:'Courier New', Courier, monospace;
+        text-align:center;
+    }
+    
+    footer{
+        color:aliceblue;
+        font-size:12px;
+        font-family:'Courier New', Courier, monospace;
+        text-align:center;
+    }
+
+    a:link{
+        color:aliceblue;
+    }
+    
+    a:visited{
+        color:aliceblue;
+    }
