@@ -1,0 +1,139 @@
+body {
+    padding-left: 4%;
+    background-color: white;
+}
+
+h1 {
+    font-family: "Crimson Text", serif;
+    /* 36 pt. font  */ 
+    font-size: 48px;
+    color: firebrick;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    /* 14 pt. font  */ 
+    font-size: 19px;
+}
+
+.sectiontitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    /* 22 pt. font  */ 
+    font-size: 29px;
+    color: firebrick;
+}
+
+.aftersectiontitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: firebrick;
+     /* 13 pt. font  */ 
+    font-size: 17px;
+}
+
+.fwnormal {
+    font-family: "Crimson Text", serif;
+    font-weight: normal;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.fwbold {
+    font-family: "Crimson Text", serif;
+    font-weight: bold;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.fsnormal {
+    font-family: "Crimson Text", serif;
+    font-style: normal;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.fsitalic {
+    font-family: "Crimson Text", serif;
+    font-style: italic;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.lsnormal {
+    font-family: "Crimson Text", serif;
+    letter-spacing: normal;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.lspointsixem {
+    font-family: "Crimson Text", serif;
+    letter-spacing: .6em;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.lsnegpointzerofiveem {
+    font-family: "Crimson Text", serif;
+    letter-spacing: -.05em;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.tdnone {
+    font-family: "Crimson Text", serif;
+    text-decoration: none;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.tdunderline {
+    font-family: "Crimson Text", serif;
+    text-decoration: underline;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.tdlinethrough {
+    font-family: "Crimson Text", serif;
+    text-decoration: line-through;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.tdoverline {
+    font-family: "Crimson Text", serif;
+    text-decoration: overline;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.ttnone {
+    font-family: "Crimson Text", serif;
+    text-transform: none;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.ttuppercase {
+    font-family: "Crimson Text", serif;
+    text-transform: uppercase;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.ttlowercase {
+    font-family: "Crimson Text", serif;
+    text-transform: lowercase;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
+
+.ttcapitalize {
+    font-family: "Crimson Text", serif;
+    text-transform: capitalize;
+     /* 18 pt. font  */ 
+    font-size: 24px;
+}
