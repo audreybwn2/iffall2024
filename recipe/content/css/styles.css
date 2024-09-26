@@ -1,0 +1,118 @@
+h1 {
+    font-family: "basic-sans", sans-serif;
+     color: white;
+     /* size 28pt font */
+    font-size: 37px;
+}
+
+h3 {
+    font-family: "basic-sans", sans-serif;
+     color: black;
+     font-weight: normal;
+     /* size 12pt font */
+    font-size: 16px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+body {
+    font-family: "basic-sans", sans-serif;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: thistle;
+    color: black;
+}
+
+/* added as a classmate said that having shorter line length may make it easier for readers to quickly glance at content */
+p {
+    width: 93%;
+}
+
+.topic {
+    font-family: "basic-sans", sans-serif;
+    /* size h2 font (23pt) */
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.totaltime {
+    font-family: "basic-sans", sans-serif;
+     /* size 14pt font */
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+}
+
+.moreinfo {
+    font-family: "basic-sans", sans-serif;
+     /* size 14pt font */
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+}
+
+.description {
+    font-family: "basic-sans", sans-serif;
+    /* size 14pt font */
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+    /* "line height should be atleast 2x your font size (so 28 pt/37px)" */
+    line-height: 37px;
+}
+
+.ingredients {
+    font-family: "basic-sans", sans-serif;
+    /* size 14pt font */
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+}
+
+.instructions {
+    font-family: "basic-sans", sans-serif;
+     /* size 14pt font */
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+}
+
+.tips {
+    font-family: "basic-sans", sans-serif;
+     /* size 14pt font */
+    font-size: 19px;
+    color: black;
+    font-weight: normal;
+}
+
+.sampleimagery {
+    font-family: "basic-sans", sans-serif;
+     /* size 14pt font */
+    font-size: 19px;
+     color: black;
+     font-weight: normal;
+}
+
+.exploration {
+    font-family: "basic-sans", sans-serif;
+     /* size 14pt font */
+    font-size: 19px;
+     color: black;
+     font-weight: normal;
+}
+
+.inspiration {
+    font-family: "basic-sans", sans-serif;
+     /* size 14pt font */
+    font-size: 19px;
+     color: black;
+     font-weight: normal;
+}
