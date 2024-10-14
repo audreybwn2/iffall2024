@@ -1,0 +1,85 @@
+body {
+    /* Make body 800px wide + 90% width of viewpoint (means 800px = max) */
+    max-width: 800px; 
+    width: 90%;
+     /* Center body + if you say margin: 0 auto, you're centering an element with a known width */
+    margin: 0 auto;
+}
+
+/* If viewport width = 640px+, set background-color to #eaf6ff */
+@media only screen and (min-width: 640px) {
+    body{
+        background-color: #eaf6ff;
+        }
+}
+
+/* If viewport is above 640px, set h1 to font-size 2.5rem */
+@media only screen and (min-width: 641px) {
+    h1{
+        font-size: 2.5rem;
+        }
+}
+
+/* If viewpoint below 500px, set the h1 to have a font-size of 1.5rem */
+@media only screen and (max-width: 499px) {
+    h1{
+        font-size: 1.5rem;
+        }
+}
+
+#fixed-size-grid-items ul {
+    /* Make list into a grid of boxes that wrap horizontally */
+    /* Display used to specify how element shown */
+    /* Flex-wrap can tell flex items to wrap onto multiple lines */
+    display: flex;
+    flex-wrap: wrap;
+     /* Remove bullets w/ li (inside ul) */
+    list-style-type: none; 
+     /* Remove default-padding left */
+     padding-left: 0%;
+     margin: 0;
+ }
+
+ #fixed-size-grid-items aside {
+    /* Make each 170px wide + 10px margin + box font sizes to 0.8rem */
+    width: 170px;
+    margin: 10px;
+    font-size: 0.8rem; 
+ }
+
+/* 2nd batch here of ul/li/aside: */
+
+ #stretchable-grid-items ul {
+    /* Same grid instructions as above */
+    display: flex;
+    flex-wrap: wrap;
+    /* Remove bullets w/ li (inside ul) */
+    list-style-type: none; 
+    /* Ul margins instructions */
+    margin: 1rem -10px;
+ }
+
+ #stretchable-grid-items li {
+    /* Width: 100% */
+    width: 100%;
+ }
+
+ #stretchable-grid-items aside {
+    /* No width but set 10px margin */
+    margin: 10px;
+    font-size: 0.8rem; 
+ }
+
+/* If viewpoint greater than 480px, set li to 50% wide */
+@media only screen and (min-width: 481px) {
+    #stretchable-grid-items li {
+        width: 50%;
+    }
+}
+
+ /* If viewpoint greater than 640x, set li to 25% wide */
+@media only screen and (min-width: 641px) {
+    #stretchable-grid-items li {
+        width: 25%;
+    }
+}
