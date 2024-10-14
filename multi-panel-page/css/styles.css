@@ -1,0 +1,117 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+/* -- ^looks good */
+
+header {
+    text-align: center;
+    padding-top: 168px;
+    padding-bottom: 180px;
+    /* -- background-image: url('../images/purple.jpg'); */
+}
+
+/* -- ^looks perfect without image and changes w/ screen */
+
+.first-section h1 {
+    font-size: 80px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+/* -- above looks good */
+
+.first-section h2 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+}
+
+/* -- above looks perf, 1st section done */
+
+.second-section h3 {
+    line-height: 1;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 1px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+/* -- section title^ aligns even when you change screen size! (due to 2nd-section display: flex) */
+
+.second-section p {
+    font-size: 18px;
+    margin-top: 37px;
+    line-height: 25.25px;
+    margin-bottom: -21px;
+}
+
+/* -- ! TEXT perf traces but not when screen size changes :( */
+
+.second-section img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* -- ! IMG perf traces but not when screen size changes :( */
+
+.second-section {
+    display: flex;
+}
+
+/* -- above great, allows section title to change w/ screen size */
+
+.second-section > div {
+    width: 960px;
+    margin: auto;
+    padding-top: 48px;
+}
+
+/* -- above great, keeps section in correct shape */
+
+.third-section h3 {
+    line-height: 1;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 76px;
+    margin: 0;
+}
+
+/* -- ! above SECTION TITLE is on top at first, changes when screen changes :( */
+
+.third-section {
+    display: flex;
+}
+
+.third-section > div {
+    width: 960px;
+    margin: auto;
+    padding-top: 48px;
+}
+
+.fourth-section h3 {
+    line-height: 1;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 650px;
+    margin: 0;
+}
+
+.fourth-section {
+    display: flex;
+}
+
+.fifth-section {
+    display: block;
+    font-size: 18px;
+    margin-top: 300px;
+    padding-left: 50px;
+    /* -- ! background-color: antiquewhite; */
+ }
+ 
