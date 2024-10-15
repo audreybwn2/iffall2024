@@ -1,0 +1,176 @@
+body {
+    font-family: "Archivo Narrow", sans-serif;
+}
+
+/* -- ^looks good */
+
+header {
+    text-align: center;
+    padding-top: 168px;
+    padding-bottom: 186px;
+    background-image: url('../images/purple.jpg');
+}
+
+/* -- ^looks perfect without image and changes w/ screen */
+
+.first-section h1 {
+    font-size: 80px;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+/* -- above looks good */
+
+.first-section h2 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+}
+
+/* -- above looks perf, 1st section done */
+
+h3 {
+    line-height: 1;
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+/* -- section title^ aligns even when you change screen size! (due to 2nd-section display: flex) */
+
+.second-section p {
+    font-size: 18px;
+    margin-top: 37px;
+    line-height: 25.25px;
+    margin-bottom: -21px;
+}
+
+/* -- ! TEXT perf traces but not when screen size changes :( */
+
+.second-section img {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* -- ! IMG perf traces but not when screen size changes :( */
+
+.second-section {
+    /* -- display: flex; */
+    background-color: rgba(0, 100, 100, .75);
+    /* -- height: 724px; */
+}
+
+/* -- above great, allows section title to change w/ screen size */
+
+.second-section > div {
+    width: 960px;
+    margin: auto;
+    padding-top: 48px;
+    padding-bottom: 77px;
+}
+
+/* -- above great, keeps section in correct shape */
+
+/* -- .third-section h3 {
+    line-height: 1;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+ */
+
+/* -- ! above SECTION TITLE is on top at first, changes when screen changes :( */
+
+.third-section {
+   /* -- !  background-color: lavender; */
+    background-color: rgb(175, 182, 206);
+}
+
+.third-section > div {
+    width: 960px;
+    margin: auto;
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+.grid-parent {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 38px;
+}
+
+.grid-parent img {
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.third-section .grid-content {
+    width: 50%;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 7.5px;
+}
+
+.third-section p {
+    font-size: 18px;
+    margin-top: 0;
+    line-height: 1.4;
+}
+
+/* --  .fourth-section h3 {
+    line-height: 1;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 657.5px;
+    margin: 0;
+}
+
+*/
+
+.fourth-section p {
+    font-size: 26px;
+    margin: auto;
+    width: 75%;
+    margin-top: 36px;
+    line-height: 36.5px;
+    margin-bottom: -21px;
+    text-align: center;
+}
+
+.fourth-section > div {
+    width: 960px;
+    margin: auto;
+    padding-top: 48px;
+    padding-bottom: 122px;
+}
+
+.fourth-section {
+    background-color: rgba(124, 219, 219, 1);
+}
+
+.fifth-section {
+    display: block;
+    font-size: 18px;
+    margin-top: 0px;
+    background-color: rgb(177, 218, 179);
+ }
+
+footer {
+    width: 960px;
+    margin: auto;
+    padding-top: 41px;
+    padding-bottom: 122px;
+}
