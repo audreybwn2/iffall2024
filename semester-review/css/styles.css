@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background-color:rgb(231, 232, 233);
+    text-align: center;
+}
+
+h1 {
+    font-family: "chivo", sans-serif;
+    font-weight: 600;
+    font-style: bold;
+    margin-top: 2.75rem;
+    font-size: 30px;
+    padding-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 21px;
+    font-family: "chivo", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: .25rem;
+    padding-top: .25rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.site-img {
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+    max-width: 685px ;
+    max-height: 750px;
+}
+
+.site-img:hover {
+    transform: scale(1.02);
+    transition: transform 0.5s ease;
+    box-shadow: 2.5px 2.5px 2.5px #c8c7c7;
+}
+
+p {
+    font-size: 16px; 
+    max-width: 540px;
+    margin: 0 auto;
+    font-family: "chivo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 1.5rem;
+}
+
+footer {
+    padding-top: 1rem;
+    font-size: 16px;
+    font-family: "chivo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 850px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 15px; 
+    }
+}
